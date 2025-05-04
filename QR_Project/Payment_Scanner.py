@@ -4,9 +4,9 @@ upi_id = input('Enter your UPI ID =')
 
 google_pay_url = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
 
-phonpe_qr = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
+phonpe_url = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
 
-paytm_qr = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
+paytm_url = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
 
 #Create Qr codes for each payment app
 
